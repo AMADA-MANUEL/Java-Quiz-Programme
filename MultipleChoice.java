@@ -5,10 +5,11 @@ public class MultipleChoice {
 
 
         Scanner scan = new Scanner(System.in);
-        String[] responses1 = {""};
-        String[] responses2 = {""};
-        String[] responses3 = {""};
 
+        String[] responses = {"" , "" , ""};
+
+
+        String[] answers = { "c , c ,a"};
 
 
 
@@ -35,14 +36,19 @@ public class MultipleChoice {
         System.out.println("cThe dollar hit R15 to Rands)");
 
 
+        System.out.println(responses[0]);
+        System.out.println(responses[1]);
+        System.out.println(responses[2]);
 
-       responses1[0] = scan.next();
-       responses2[0] =scan.next();
-       responses3[0] = scan.next();
-        System.out.println(responses1[0]);
-        System.out.println(responses3[0]);
-        System.out.println(responses2[0]);
+       responses[1] = scan.next();
+       responses[2] =scan.next();
+       responses[3] = scan.next();
 
+       int score = 0 ;
+       for(int i = 0 ; i <3 ; i ++){
+           if (responses[i].equalsIgnoreCase(answers[i])){
+               score ++ ;
+       }
     }
 
 }
