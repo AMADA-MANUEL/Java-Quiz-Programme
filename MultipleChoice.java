@@ -14,6 +14,7 @@ public class MultipleChoice {
         System.out.println();
 
 
+
         System.out.println("What historic moment happend inthe markets in the year 2026 January");
         System.out.println();
         System.out.println();
