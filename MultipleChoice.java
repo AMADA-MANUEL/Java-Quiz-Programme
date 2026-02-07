@@ -5,6 +5,14 @@ public class MultipleChoice {
 
 
         Scanner scan = new Scanner(System.in);
+        String[] responses1 = {""};
+        String[] responses2 = {""};
+        String[] responses3 = {""};
+
+
+
+
+
 
         System.out.println("How many legs do spiders have ?");
 
@@ -28,10 +36,12 @@ public class MultipleChoice {
 
 
 
-        scan.next();
-        scan.next();
-        scan.next();
-
+       responses1[0] = scan.next();
+       responses2[0] =scan.next();
+       responses3[0] = scan.next();
+        System.out.println(responses1[0]);
+        System.out.println(responses3[0]);
+        System.out.println(responses2[0]);
 
     }
 
