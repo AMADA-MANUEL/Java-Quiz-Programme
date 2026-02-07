@@ -1,5 +1,11 @@
+import java.util.Scanner;
+
 public class MultipleChoice {
     public static void main (String[] args) {
+
+
+        Scanner scan = new Scanner(System.in);
+
         System.out.println("How many legs do spiders have ?");
         System.out.println();
         System.out.println();
@@ -20,6 +26,12 @@ public class MultipleChoice {
         System.out.println();
         System.out.println();
         System.out.println();
+
+
+        scan.next();
+        scan.next();
+        scan.next();
+
 
     }
 
