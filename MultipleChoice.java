@@ -25,6 +25,7 @@ public class MultipleChoice {
         System.out.println("c) G20 Summit");
 
 
+
         System.out.println("What historic moment happend in the markets in the year 2026 January");
         System.out.println("a Gold hit 5600)");
         System.out.println("b The dollar hit R21)");
