@@ -12,6 +12,7 @@ public class MultipleChoice {
         String[] answers = {"c" , "c" ,"a"};
 
 
+
         System.out.println("How many legs do spiders have ?");
 
         System.out.println("a) 7");
