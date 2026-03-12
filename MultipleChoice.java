@@ -32,7 +32,7 @@ public class MultipleChoice {
         System.out.println("cThe dollar hit R15 to Rands)");
 
 
-
+//
 //        System.out.println(responses[0]);
 //        System.out.println(responses[1]);
 //        System.out.println(responses[2]);
